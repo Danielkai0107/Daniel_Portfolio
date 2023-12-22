@@ -2,10 +2,12 @@
 @import './mixin/rwd';
 @import './mixin/tool';
 @import './animations/animations';
+@import './layout/navbar';
+@import './layout/menuItem';
+@import './layout/introItem';
+@import './layout/bookList';
+@import './layout/footer';
 
 
 
-body {
-  @include scrollbar-style(1px, transparent);
-}
 

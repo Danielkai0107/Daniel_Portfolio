@@ -1,11 +1,17 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import Menu from '../components/Menu'
+import Intro from '../components/Intro'
 
 function HomePage() {
   return (
     <>
       <Navbar />
-      <h1>homepage</h1>
+      <Intro/>
+      <Menu/>
+      <Menu/>
+      <Menu/>
+      <Menu/>
     </>
   )
 }

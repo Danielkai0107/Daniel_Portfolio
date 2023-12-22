@@ -1,0 +1,31 @@
+.intro {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../../images//white-bgc.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  &_container {
+    padding-top: 12rem;
+    padding-left: 5rem;
+  }
+  &_title {
+    h1 {
+      font-family: 'Inria Serif', serif;
+      font-size: 5rem;
+      color: #464646;
+    }
+  }
+  &_content {
+    margin-top: 3rem;
+    width: 55vw;
+    p {
+      font-family: 'Noto Sans TC', sans-serif;
+      font-size: 1rem;
+      font-weight: 200;
+      letter-spacing: 1.8px;
+      line-height: 2.4rem;
+      color: #464646;
+    }
+  }
+}
